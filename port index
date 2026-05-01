@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav>
+        <h2 class="logo">MyPortfolio</h2>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- HEADER -->
+    <header class="portfolio-header">
+        <h1>My Work & Skills</h1>
+        <p>Here are some of my projects and technical skills</p>
+    </header>
+
+    <!-- SKILLS -->
+    <section class="skills">
+        <h2>My Skills</h2>
+        <div class="card-container">
+            <div class="card">HTML</div>
+            <div class="card">CSS</div>
+            <div class="card">JavaScript</div>
+            <div class="card">Python</div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="projects">
+        <h2>My Projects</h2>
+
+        <div class="project-container">
+            <div class="project-card">
+                <h3>Landing Page</h3>
+                <p>Responsive landing page using HTML & CSS.</p>
+            </div>
+
+            <div class="project-card">
+                <h3>Temperature Converter</h3>
+                <p>JavaScript-based temperature converter.</p>
+            </div>
+
+            <div class="project-card">
+                <h3>Portfolio Website</h3>
+                <p>Personal portfolio with multiple pages.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2026 MyPortfolio | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
